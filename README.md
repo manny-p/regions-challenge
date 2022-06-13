@@ -3,7 +3,7 @@
 Manuel Parra
 ```
 ## Final Deliverable
-https://manny-manny-p.vercel.app/
+https://manny-omega.vercel.app/
 
 ## Instructions
 
