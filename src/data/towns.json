@@ -1,0 +1,23 @@
+[
+  {
+    "location": "London, England",
+    "startsAt": "2020-04-15T06:00:00.000Z",
+    "teaser": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae debitis animi officiis tempora impedit distinctio obcaecati quisquam quibusdam eos earum autem quam voluptates eligendi porro praesentium, architecto aut temporibus! Reiciendis.",
+    "tag": "international",
+    "headline": "register now"
+  },
+  {
+    "location": "Atlanta, Georgia",
+    "startsAt": "2020-03-10T06:00:00.000Z",
+    "teaser": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum hic earum sequi vitae eaque! Harum rerum sed, tempora unde ad quibusdam reiciendis eum porro dolor mollitia, doloremque nostrum temporibus sapiente?",
+    "tag": "domestic",
+    "headline": "register now"
+  },
+  {
+    "location": "Singapore",
+    "startsAt": "2020-02-15T06:00:00.000Z",
+    "teaser": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio reprehenderit sit porro, deleniti quas, praesentium iusto odio iste esse illo omnis laborum tempora rem aliquid facilis. Quod tempore quo accusantium?",
+    "tag": "international",
+    "headline": "3 spots lefts!"
+  }
+]
