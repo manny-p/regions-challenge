@@ -1,11 +1,12 @@
 import Image from 'next/image'
-
 import { format } from 'date-fns'
+import styles from "./styles.module.css"
+import log from 'tailwindcss/lib/util/log'
 
 export default function Hero({teaser, startsAt, headline, location, tag}) {
   return (
       <section className="mt-7 relative flex items-center flex-wrap w-full bg-white">
-        <div className="h-[400px] w-[570px] md:w-1/2 relative">
+        <div className={`${styles.image}  md:w-1/2 relative`}>
           <Image
               className="object-fit"
               layout="fill"
@@ -15,7 +16,7 @@ export default function Hero({teaser, startsAt, headline, location, tag}) {
               aria-label='tag'
               className={`${
                   tag === 'domestic' ? 'border-[#32C5FF]' : 'border-[#F7B500]'
-              } absolute top-[10px] border-l-[6px] -left-[6px] font-[400] tracking-wide text-[14px] bg-white px-[8px] py-[4px]`}>
+              } absolute top-[10px] border-l-[6px] md:-left-[6px] font-[400] tracking-wide text-[14px] bg-white px-[8px] py-[4px]`}>
             {tag.toUpperCase()}
           </div>
         </div>
@@ -30,5 +31,7 @@ export default function Hero({teaser, startsAt, headline, location, tag}) {
             </div>
           </div>
       </section>
+
+
   )
 }

@@ -3,7 +3,7 @@
 Manuel Parra
 ```
 ## Final Deliverable
-https://manny-omega.vercel.app/
+https://regions-challenge.vercel.app/
 
 ## Instructions
 
